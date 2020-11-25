@@ -1,0 +1,12 @@
+[INFO] 2020-11-24 20:53:38,130 com.example.Twitter.TwitterappApplication main - APP started
+[WARN] 2020-11-24 20:54:00,033 com.example.Twitter.controller.TwitterController getFeed - getfeed
+[ERROR] 2020-11-24 21:03:08,778 com.example.Twitter.service.GetPost postMsg - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate.
+code - 187
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=2fc5b7cb or
+	http://www.google.co.jp/search?q=1051ec03
+TwitterException{exceptionCode=[2fc5b7cb-1051ec03], statusCode=403, message=Status is a duplicate., code=187, retryAfter=-1, rateLimitStatus=null, version=4.0.7}
+[INFO] 2020-11-24 22:53:01,886 com.example.Twitter.TwitterappApplication main - APP started
+[WARN] 2020-11-24 22:54:09,871 com.example.Twitter.controller.TwitterController getFeed - getfeed

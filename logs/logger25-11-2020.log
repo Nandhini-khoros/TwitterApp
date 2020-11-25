@@ -1,0 +1,2 @@
+[INFO] 2020-11-25 08:14:36,573 com.example.Twitter.TwitterappApplication main - APP started
+[WARN] 2020-11-25 08:15:01,880 com.example.Twitter.controller.TwitterController getFeed - getfeed
