@@ -1,7 +1,7 @@
 # TWITTER APPLICATION:
 
 This branch focuses on :
-    Adding dependencies of service layer to resource layer.
+    Adding dependencies to inject service layer into resource layer.
 
 
 
