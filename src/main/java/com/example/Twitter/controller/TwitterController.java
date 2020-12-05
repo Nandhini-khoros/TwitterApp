@@ -1,12 +1,10 @@
 package com.example.Twitter.controller;
 import com.example.Twitter.service.TwitterService;
 import org.apache.log4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
-
 import java.util.List;
 
 @RestController
@@ -15,13 +13,11 @@ public class TwitterController {
 
     Logger logger = Logger.getLogger(TwitterController.class);
     TwitterService twitterService =  new TwitterService();
-
     Twitter twitter = TwitterFactory.getSingleton();
 
     @GetMapping("/gettimeline")
     public List<String> getFeed() throws TwitterException
     {
-        //logger.debug("getFeed");
       logger.warn("getfeed");
         return twitterService.getTimeLineMessage(this.twitter);
     }
