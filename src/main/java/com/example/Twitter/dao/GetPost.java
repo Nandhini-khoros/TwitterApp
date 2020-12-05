@@ -1,6 +1,4 @@
 package com.example.Twitter.dao;
-
-import com.example.Twitter.dao.TwitterServiceInterface;
 import org.springframework.stereotype.Service;
 import twitter4j.Status;
 import twitter4j.Twitter;
@@ -21,7 +19,6 @@ public class GetPost implements TwitterServiceInterface {
     public String postMsg(Twitter twitter, String postMessage)
     {
         try {
-
             Status status = twitter.updateStatus(postMessage);
             return "Post Tweeted";
         }

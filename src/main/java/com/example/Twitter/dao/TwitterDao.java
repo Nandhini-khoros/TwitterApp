@@ -1,8 +1,6 @@
 package com.example.Twitter.dao;
-
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
-
 import java.util.List;
 
 public class TwitterDao {
